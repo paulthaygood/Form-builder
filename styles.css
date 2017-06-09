@@ -1,3 +1,62 @@
 #form{
-  border: 1px solid blue;
+  height: 578px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  box-shadow: -2px 2px 4px #ccc;
+
+
+}
+
+main{
+  display: flex;
+  justify-content: center;
+
+}
+h1{
+
+  color: white;
+  background-color: #54a7fb;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding: 35px;
+}
+
+div{
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+}
+
+input{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+
+}
+
+select{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#user-language{
+
+
+}
+
+textarea{
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#submit-btn{
+  background-color: #54a7fb;
 }
